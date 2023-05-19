@@ -1,5 +1,17 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+
+
+
+.logo{
+font-size: 60px;
+
+font-family: 'Inter', sans-serif;
+}
+
 .the-bright{
-    font-size: 50px;
+    font-size: 56px;
    
     font-weight: bolder;
 }
@@ -10,8 +22,58 @@ p{
 }
 
 .read-more {
-    width: 200px;
+    border: none;
+    width: 180px;
     height: 50px;
-    background-color: darkblue;
+    background-color: #e9685b;
     color: white;
+    transition: background-color 0.3s ease;
+    letter-spacing: 1px;
+    font-weight: bold;
 }
+
+.read-more:hover {
+    background-color: #00001a; /* Changing the background color on hover */
+  }
+
+.bg-00001a{
+    background-color: #00001a;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+.hover:hover{
+    color: #d0a465;
+  }
+
+.new{
+    color: #d0a465
+}
+.nav-link{
+    font-size: 18px;
+   
+}
+li{
+   margin: 0 0 0 40px;
+}
+
+.nav-link:hover {
+    color: #e9685b; 
+  }
+
+
+  .img-bottom{
+    height: 132px;
+    width: 100px;
+  }
+ 
+  .number{
+    color: #c7c6cd;
+  }
+
+  .para-bottom{
+    color: #c7c6cd;
+  }
+
+  .title-bottom{
+   color: #0c091c;
+  }
