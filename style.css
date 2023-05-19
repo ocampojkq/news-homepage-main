@@ -11,9 +11,8 @@ font-family: 'Inter', sans-serif;
 }
 
 .the-bright{
-    font-size: 56px;
-   
-    font-weight: bolder;
+    font-size: 60px;
+   font-weight: 700;
 }
 
 p{
@@ -33,7 +32,7 @@ p{
 }
 
 .read-more:hover {
-    background-color: #00001a; /* Changing the background color on hover */
+    background-color: #00001a; 
   }
 
 .bg-00001a{
@@ -76,4 +75,22 @@ li{
 
   .title-bottom{
    color: #0c091c;
+   font-weight: bold;
+   transition: background-color 0.3s ease;
+   cursor: pointer;
+  }
+
+  .title-bottom:hover{
+
+    color: #e9685b; 
+
+  }
+
+  .offcanvas-custom-width {
+    width: 300px; /* Adjust the width as desired */
+  }
+  @media (max-width: 767.98px) {
+    .offcanvas-custom-width {
+      width: 75% !important;
+    }
   }
