@@ -1,0 +1,17 @@
+.the-bright{
+    font-size: 50px;
+   
+    font-weight: bolder;
+}
+
+p{
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.read-more {
+    width: 200px;
+    height: 50px;
+    background-color: darkblue;
+    color: white;
+}
