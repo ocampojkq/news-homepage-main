@@ -86,11 +86,16 @@ li{
 
   }
 
+  
+
   .offcanvas-custom-width {
     width: 300px; /* Adjust the width as desired */
   }
-  @media (max-width: 767.98px) {
+  @media (max-width: 767px) {
     .offcanvas-custom-width {
       width: 75% !important;
     }
   }
+
+  
+  
