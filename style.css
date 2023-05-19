@@ -86,15 +86,27 @@ li{
 
   }
 
-  
-
   .offcanvas-custom-width {
     width: 300px; /* Adjust the width as desired */
   }
-  @media (max-width: 767px) {
+
+
+  @media (max-width: 768px) {
+
+    .we-dive{
+      padding: 10px !important;
+     }
     .offcanvas-custom-width {
       width: 75% !important;
     }
+   .the-bright{
+    font-size: 40px;
+   padding: 0;
+   }
+   .bg-00001a{
+    margin: 10px !important;
+   
+   }
   }
 
   
